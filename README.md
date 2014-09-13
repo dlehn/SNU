@@ -10,20 +10,20 @@ SNU adresses these issues by overwriting Skype's default notification positions 
 Installation
 ============
 1. Acquire binaries (download the precompiled binaries offered in the "Releases" section or compile them yourself, if you don't trust me).
-2. Copy SNU.exe, SNU.dll and SNU.ini to to your Skype installation directory (by default: C:\Program Files (x86)\Skype\Phone).
-If you do not have the required rights to copy the files to the Skype folder (if it's somewhere in Program Files you will need Administrator privileges on Win8), simply place them somewhere else (it doesn't matter as long as they're all in one folder) and adjust the path to the Skype.exe in step 3.
-3. Open SNU.ini in your favorite text editor, have a look at the configuration options and adjust everything to your preferences.
-4. From now on, start Skype by starting the SNU.exe instead of the normal Skype.exe (if you've got a shortcut to Skype on your desktop, change it to point to the SNU.exe instead of Skype.exe).
+2. Copy *SNU.exe*, *SNU.dll* and *SNU.ini* to to your Skype installation directory (by default: *C:\Program Files (x86)\Skype\Phone*).
+If you do not have the required rights to copy the files to the Skype folder (if it's somewhere in Program Files you will need administrator privileges on Win8), simply place them somewhere else (it doesn't matter as long as they're all in one folder) and adjust the path to the *Skype.exe* in step 3.
+3. Open *SNU.ini* in your favorite text editor, have a look at the configuration options and adjust everything to your preferences.
+4. From now on, start Skype by starting the *SNU.exe* instead of the normal *Skype.exe* (if you've got a shortcut to Skype on your desktop, change it to point to the *SNU.exe* instead of *Skype.exe*).
 
 One drawback of this utility is that it won't work if you use Skype's "Start Skype when I Start Windows" option (since that will obviously launch Skype directly, and not via SNU).
-In order to get that to work, disable the autostart option in Skype's options menu and instead place a shortcut to the SNU.exe in your autostart folder (on Windows 8 this is located in C:\Users\*Your User Name*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup, on older Windows version simply look for the folder in your start menu).
+In order to get that to work, disable the autostart option in Skype's options menu and instead place a shortcut to the *SNU.exe* in your autostart folder (on Windows 8 this is located in C:\Users\\*Your User Name*\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup, on older Windows version simply look for the folder in your start menu).
 
 Troubleshooting
 ===============
 Q: I've downloaded the precompiled binary version of SNU and it complains about some missing DLL files. What can I do?
 
-A: You don't have the latest Visual C++ Redisitrbutable package installed. Get it from here: http://www.microsoft.com/en-us/download/details.aspx?id=40784
+A: You don't have the latest Visual C++ Redisitributable package installed. Get it from here: http://www.microsoft.com/en-us/download/details.aspx?id=40784
 
-Q: SNU can't find my Skype.exe, why?
+Q: SNU can't find my *Skype.exe*, why?
 
-A: Make sure you have the correct app path set in the SNU.ini file. (If SNU is in the same folder as the Skype.exe, the entry should simply say: app=Skype.exe).
+A: Make sure you have the correct app path set in the SNU.ini file. (If SNU is in the same folder as the Skype.exe, the entry should simply say *app=Skype.exe*, otherwise).
