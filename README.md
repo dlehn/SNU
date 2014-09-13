@@ -26,4 +26,4 @@ A: You don't have the latest Visual C++ Redisitributable package installed. Get 
 
 Q: SNU can't find my *Skype.exe*, why?
 
-A: Make sure you have the correct app path set in the SNU.ini file. (If SNU is in the same folder as the Skype.exe, the entry should simply say *app=Skype.exe*, otherwise).
+A: Make sure you have the correct app path set in the SNU.ini file. (If SNU is in the same folder as the Skype.exe, the entry should simply say *app=Skype.exe*, otherwise it should probably say *app=C:\Program Files (x86)\Skype\Phone\Skype.exe*).
