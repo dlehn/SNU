@@ -21,7 +21,9 @@ In order to get that to work, disable the autostart option in Skype's options me
 Troubleshooting
 ===============
 Q: I've downloaded the precompiled binary version of SNU and it complains about some missing DLL files. What can I do?
+
 A: You don't have the latest Visual C++ Redisitrbutable package installed. Get it from here: http://www.microsoft.com/en-us/download/details.aspx?id=40784
 
 Q: SNU can't find my Skype.exe, why?
+
 A: Make sure you have the correct app path set in the SNU.ini file. (If SNU is in the same folder as the Skype.exe, the entry should simply say: app=Skype.exe).
