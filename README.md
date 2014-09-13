@@ -9,7 +9,7 @@ SNU adresses these issues by overwriting Skype's default notification positions 
 
 Installation
 ============
-1. Acquire binaries (download the precompiled binaries offered here or compile them yourself, if you don't trust me).
+1. Acquire binaries (download the precompiled binaries offered in the "Releases" section or compile them yourself, if you don't trust me).
 2. Copy SNU.exe, SNU.dll and SNU.ini to to your Skype installation directory (by default: C:\Program Files (x86)\Skype\Phone).
 If you do not have the required rights to copy the files to the Skype folder (if it's somewhere in Program Files you will need Administrator privileges on Win8), simply place them somewhere else (it doesn't matter as long as they're all in one folder) and adjust the path to the Skype.exe in step 3.
 3. Open SNU.ini in your favorite text editor, have a look at the configuration options and adjust everything to your preferences.
