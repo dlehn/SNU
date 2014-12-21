@@ -1,3 +1,9 @@
+OUTDATED
+========
+SNU is **outdated**. There is a newer, much slimmer and easier to use version available, called ![Skype Utility Project](https://github.com/dlehn/Skype-Utility-Project). It also has more features.
+
+Use that instead of SNU!
+
 SNU
 ===
 Skype Notification Unf*cker (or Utility, if you're so inclined) is a small utility designed to adress "Skype for Windows Desktop"'s popup notification issues for users with multiple monitors.
